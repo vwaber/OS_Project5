@@ -1,0 +1,7 @@
+This is a test of all strings.
+( 3 + 4 ) * 5 / 6
+3 + ( 4 * 5 ) / 6
+(3+4)*5/6
+This ; is , a ( punctuation ) test
+435 - 202 = 577xx09=((*
+
