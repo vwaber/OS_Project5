@@ -103,7 +103,7 @@ void* fnChild0(void*)
 	struct inputStruct sInput;
 
 	//Continues getting lines of input from std while a blank line has not been input
-	while(cin.getline(strBuffer, 256))
+	while(cin.getline(strBuffer, 256) && cin.gcount() > 1)
 		{	
 		strcpy(sInput.str, strBuffer);
 		sInput.len = strlen(strBuffer);
