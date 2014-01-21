@@ -1,7 +1,7 @@
-Run Server first, then Client
+./prog5Server [-p <serverPort>]
+./prog5Client [-s <serverIP>] [-p <serverPort>] [< test.txt]
 
-prog5Server [-p <serverPort>]
-prog5Client [-s <serverIP>] [-p <serverPort>]
+Server must be running before Client can connect
 
 Default server port is 1024. Attempts to use specified port, if not available checks for next available.
 Default server IP is 0.0.0.0, which is the address of the current machine.
